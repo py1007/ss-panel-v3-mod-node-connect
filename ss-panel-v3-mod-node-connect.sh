@@ -145,7 +145,7 @@ install_ubuntu_ssr(){
 	apt-get install python-pip git -y
 	pip install cymysql
 	cd /root
-	git clone -b master https://github.com/lizhongnian/shadowsocks.git "/root/shadowsocks"
+	git clone -b manyuser https://github.com/lizhongnian/shadowsocks.git "/root/shadowsocks"
 	cd shadowsocks
 	pip install -r requirements.txt
 	chmod +x *.sh
@@ -159,8 +159,8 @@ install_node(){
 	echo "#########################################################################"
 	echo "# One click Install Shadowsocks-Python-Manyuser                         "
 	echo "# Github: https://github.com/lizhongnian/ss-panel-v3-mod-node-connect   "
-	echo "# Author: 7colorblog                                                    "
-	echo "# blog: https://www.7colorblog.com                                      "	
+	echo "# Author: tyjiasu                                                    "
+	echo "# blog: https://vpn.tyjiasu.com                                      "	
 	echo "#########################################################################"
 	echo
 	#Check Root
@@ -225,8 +225,8 @@ install_node(){
 	echo "#########################################################################"
 	echo "# 安装完成，节点即将重启使配置生效                                      "
 	echo "# Github: https://github.com/lizhongnian/ss-panel-v3-mod-node-connect   "
-	echo "# Author: 7colorblog                                                    "
-	echo "# blog: https://www.7colorblog.com                                      "	
+	echo "# Author: tyjiasu                                                    "
+	echo "# blog: https://vpn.tyjiasu.com                                      "	
 	echo "#########################################################################"
 	reboot now
 }
@@ -236,8 +236,8 @@ install_node_db(){
 	echo "#########################################################################"
 	echo "# One click Install Shadowsocks-Python-Manyuser                         "
 	echo "# Github: https://github.com/lizhongnian/ss-panel-v3-mod-node-connect   "
-	echo "# Author: 7colorblog                                                    "
-	echo "# blog: https://www.7colorblog.com                                      "	
+	echo "# Author: tyjiasu                                                    "
+	echo "# blog: https://vpn.tyjiasu.com                                      "	
 	echo "#########################################################################"
 	echo
 	#Check Root
@@ -309,8 +309,8 @@ install_node_db(){
 	echo "#########################################################################"
 	echo "# 安装完成，节点即将重启使配置生效                                      "
 	echo "# Github: https://github.com/lizhongnian/ss-panel-v3-mod-node-connect   "
-	echo "# Author: 7colorblog                                                    "
-	echo "# blog: https://www.7colorblog.com                                      "
+	echo "# Author: tyjiasu                                                    "
+	echo "# blog: https://vpn.tyjiasu.com                                      "
 	echo "#########################################################################"
 	reboot now
 }
